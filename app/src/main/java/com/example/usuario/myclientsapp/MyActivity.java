@@ -18,6 +18,7 @@ import android.view.ViewGroup;
 public class MyActivity extends Activity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
 
+
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
      */
@@ -44,6 +45,7 @@ public class MyActivity extends Activity
     }
 
     @Override
+
     public void onNavigationDrawerItemSelected(int position) {
 
         Fragment objFragment = null;
